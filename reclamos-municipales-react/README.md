@@ -31,7 +31,7 @@ React Icons
 ##  Instalación y ejecución
 
 ### Clonar el repositorio
-`git clone https://github.com/mariapaulaveram/reclamos-front.git`
+`git clone https://github.com/mariapaulaveram/VozCiudadana/tree/main/reclamos-municipales-react`
 
 ### Ir al directorio del frontend
 `cd reclamos-front`

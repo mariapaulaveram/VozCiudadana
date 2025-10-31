@@ -15,7 +15,7 @@ MySQL (gestionado con MySQL Workbench)
 
 ## 🚀 Instalación y ejecución
 ### Clonar el repositorio
-git clone https://github.com/mariapaulaveram/reclamos-back.git
+git clone https://github.com/mariapaulaveram/VozCiudadana/tree/main/reclamos-back
 
 # Ir al directorio del backend
 cd reclamos-back
