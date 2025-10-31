@@ -1,0 +1,6 @@
+[submodule "reclamos-back"]
+	path = reclamos-back
+	url = https://github.com/mariapaulaveram/reclamos-back.git
+[submodule "reclamos-municipales-react"]
+	path = reclamos-municipales-react
+	url = https://github.com/mariapaulaveram/reclamos-municipales-react.git

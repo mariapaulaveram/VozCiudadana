@@ -1,0 +1,113 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background-color: #f4f7fa; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.intro {
+  width: 100%;
+  max-width: 900px; 
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.intro h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.intro p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555555; 
+  margin-bottom: 1.1rem;
+  text-align: left;
+}
+
+.intro p:last-of-type {
+  margin-bottom: 0;
+}
+
+.encuesta {
+  width: 100%;
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  border-top: 4px solid #004a99;
+}
+
+.encuestaPregunta {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #003366;
+}
+
+.encuestaTexto {
+  font-size: 1rem;
+  margin-bottom: 1.5rem; 
+  color: #555;
+}
+
+.cta {
+  background-color: #004a99; 
+  color: white; 
+  
+  border: none;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cta:hover {
+  background-color: #003366;
+}
+
+/* ===== ZONA RESPONSIVE (Para Celular) ==== */
+/* ========================================= */
+
+@media (max-width: 768px) {
+  
+  .wrapper {
+    padding: 20px 15px;
+    gap: 20px;
+  }
+  
+  .intro, 
+  .encuesta {
+    padding: 25px 20px;
+  }
+
+  .intro h2 {
+    font-size: 1.5rem;
+  }
+
+  .intro p {
+    font-size: 0.9rem;
+  }
+
+  .encuestaPregunta {
+    font-size: 1.3rem;
+  }
+  
+  .cta {
+    width: 100%;
+    padding: 16px; 
+  }
+}
