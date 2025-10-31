@@ -2,14 +2,20 @@
 Proyecto Final – Taller Integrador Tecnicatura Universitaria en Informática – Facultad de Ingeniería – UNNE Universidad Nacional del Nordeste (UNNE) Docente responsable: Ing. Fernando A. Figueredo Fecha: Noviembre de 2025
 
 ## Autores
-Acosta Olga Elizabet
-Barboza Cristian
-Bonafos Alejandro
-Soto López Carlos
-Vera Morandini María Paula
-Zaballía Carmen Raquel
+Acosta Olga Elizabet,
+Barboza Cristian,
+Bonafos Alejandro,
+Soto López Carlos,
+Vera Morandini María Paula,
+Zaballía Carmen Raquel.
 
 Cada integrante asumió roles definidos, aportando desde sus conocimientos técnicos y organizativos.
+
+## Estructura del repositorio y trabajo colaborativo
+Este repositorio fue creado como carpeta final para la presentación institucional del proyecto. Durante el desarrollo, cada integrante trabajó en módulos específicos (frontend, backend, base de datos), y se utilizaron distintos repositorios para organizar el trabajo técnico.
+
+Para la entrega final, se decidió unificar todo el contenido en un solo repositorio, reorganizando las carpetas y documentación. Por este motivo los commits originales de cada módulo no se reflejan aquí, ya que se migró el contenido desde repositorios individuales.
+Esta estructura busca facilitar la evaluación institucional, la claridad técnica y la presentación conjunta del proyecto.
 
 ## Descripción del proyecton
 Voz Ciudadana es una plataforma web que permite a los vecinos interactuar con el municipio de forma ágil y transparente. A través de la pagina, los ciudadanos pueden registrar reclamos, responder una encuesta de satisfaccion y hacer seguimiento del estado de sus reclamos. Por su parte, los empleados municipales gestionan los reclamos recibidos, actualizan su estado y responden con comentarios visibles para el vecino y pueden ver los resultados de la encuesta de satisfaccion.
@@ -53,7 +59,7 @@ MySQL (gestionado con MySQL Workbench)
 
 ## Frontend 
 ### Clonar el repositorio
-git clone https://github.com/mariapaulaveram/reclamos-front.git
+git clone https://github.com/mariapaulaveram/VozCiudadana/tree/main/reclamos-municipales-react
 
 ### Ir al directorio del frontend
 cd reclamos-front
@@ -67,7 +73,7 @@ npm run dev
 
 ## Backend
 ### Clonar el repositorio
-git clone https://github.com/mariapaulaveram/reclamos-back.git
+git clone https://github.com/mariapaulaveram/VozCiudadana/tree/main/reclamos-back
 
 # Ir al directorio del backend
 cd reclamos-back
