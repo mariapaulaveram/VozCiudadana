@@ -82,8 +82,17 @@ cd reclamos-back
 npm install
 
 # Configurar variables de entorno (crear archivo .env)
-- PORT=3000
-- DB_URL=...
+MYSQL_HOST=localhost
+MYSQL_DB_NAME= nombre de la bd
+MYSQL_USER=root
+MYSQL_PASSWORD= elpassword
+
+CLOUDINARY_CLOUD_NAME=tusdatos
+CLOUDINARY_API_KEY=tusdatos
+CLOUDINARY_API_SECRET=tusdatos
+
+EMAIL_USER=vozciudadana.municipio@gmail.com    
+EMAIL_PASSWORD=tusdatos
 
 # Ejecutar el servidor
 npm start
